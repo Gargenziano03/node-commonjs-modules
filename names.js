@@ -10,3 +10,5 @@ function names(firstName, lastName) {
     }
 }
 
+module.exports = names()
+
