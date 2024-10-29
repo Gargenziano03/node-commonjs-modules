@@ -4,7 +4,7 @@ La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastNam
 Esporta la funzione dal file.*/
 
 //definiamo
-
+//funzione
 function names(firstName, lastName) {
     return{
         firstName: firstName,
@@ -13,6 +13,6 @@ function names(firstName, lastName) {
 }
 
 //esportazione
-module.exports = names
+module.exports = names()
 
 

@@ -7,4 +7,8 @@ All'interno della tua funzione, usa le tue due funzioni precedenti per costruire
 //importazione
 const names = require('./names.js')
 names('cristiano', 'ronaldo')
+
+//importazione
+const creahobbies = require('./hobbies.js')
+creahobbies('calcio. palestra, nuoto')
  
